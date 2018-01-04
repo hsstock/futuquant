@@ -26,7 +26,7 @@
     },
     "frame":
     {
-        "_api_ip": "127.0.0.1",
+        "_api_ip": "10.242.103.18",
         "_api_port": 11111,
         "_market": "HK",
         "_env_type": 1,

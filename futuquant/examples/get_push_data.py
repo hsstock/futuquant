@@ -110,7 +110,7 @@ class HeartBeatTest(HeartBeatHandlerBase):
         return ret_code, timestamp
 
 if __name__ == "__main__":
-    quote_context = OpenQuoteContext(host='127.0.0.1', port=11111)
+    quote_context = OpenQuoteContext(host='10.242.103.18', port=11111)
 
     print(quote_context.get_global_state())
     quote_context.set_handler(HeartBeatTest())
